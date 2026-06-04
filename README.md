@@ -72,12 +72,14 @@ Severity: HIGH
 Reason: Suspicious URL interaction detected
 
 Output
+
 Security events analyzed in real time
 Alerts generated and classified by severity
 Alert records exported to alerts.json
 Demonstrates SOC-style monitoring and incident detection workflows
 
 Future Improvements
+
 MITRE ATT&CK technique mapping
 Real-time log streaming
 Threat intelligence integration
@@ -85,9 +87,11 @@ Dashboard visualization using Streamlit
 Elasticsearch/Kibana integration
 
 Author
+
 Shaheer ul islam
 Cyber Security Enthusiast | SOC Analyst | Python Developer
 
 
 License
+
 This project is intended for educational and portfolio purposes.
