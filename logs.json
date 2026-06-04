@@ -1,0 +1,14 @@
+[
+  {"user": "alice", "ip": "10.0.0.1", "event": "login_success", "type": "auth"},
+
+  {"user": "bob", "ip": "10.0.0.2", "event": "login_failed", "type": "auth"},
+  {"user": "bob", "ip": "10.0.0.2", "event": "login_failed", "type": "auth"},
+  {"user": "bob", "ip": "10.0.0.2", "event": "login_failed", "type": "auth"},
+
+  {"user": "scanner", "ip": "192.168.1.10", "event": "port_scan_22"},
+  {"user": "scanner", "ip": "192.168.1.10", "event": "port_scan_80"},
+  {"user": "scanner", "ip": "192.168.1.10", "event": "port_scan_443"},
+
+  {"user": "eve", "ip": "172.16.0.5", "event": "email_click", "url": "http://fake-bank-login.com"},
+  {"user": "eve", "ip": "172.16.0.5", "event": "email_click", "url": "http://secure-login-verify.ru"}
+]
